@@ -1,0 +1,16 @@
+/*Variables */
+
+@font-face: {
+  font-family: 'WisdomScript';
+  src: url("components/wisdom-script.otf") format('opentype');
+}
+
+@font-face: {
+  font-family: 'DroidSerif';
+  src: url("components/DroidSerif-Italic.ttf") format('truetype');
+}
+
+$font-main: 'Montserrat', sans-serif;
+$font-text: 'Roboto Slab', serif;
+$font-title: 'WisdomScript', verdana, helvetica, sans-serif;;
+$font-subtitle: 'DroidSerif';
