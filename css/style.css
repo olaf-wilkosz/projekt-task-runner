@@ -6,6 +6,8 @@
 
 body {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
 
 .container {
@@ -16,17 +18,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* Navigation */
-.navigation h1 {
-  margin: 0;
-  font-family: "Pattaya", sans-serif;
-  font-size: 26px;
-  font-weight: 100;
-  color: #fed136;
-  letter-spacing: 1.3px;
+.navigation {
+  padding-top: 36px;
 }
 
 .navigation ul {
@@ -36,7 +33,6 @@ a {
 .navigation li {
   display: inline-block;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
   margin: 0 20px;
@@ -51,5 +47,55 @@ a {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/Background_Image.jpg");
+  background-color: #000000;
+  opacity: 0.5;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash-inner h2 {
+  font-family: "Bree Serif", serif;
+  font-style: italic;
+  font-size: 52px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+
+.splash-inner h1 {
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 26px 0;
+}
+
+.splash-inner .button {
+  display: inline-block;
+  min-width: 240px;
+  min-height: 65px;
+  background: #fed136;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 25px 51px 26px;
+  margin-top: 26px;
 }
 /*# sourceMappingURL=style.css.map */
