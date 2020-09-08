@@ -1,11 +1,55 @@
 /*Variables */
-@font-face : {
-  font-family: 'WisdomScript';
-  src: url("components/wisdom-script.otf") format("opentype");
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-@font-face : {
-  font-family: 'DroidSerif';
-  src: url("components/DroidSerif-Italic.ttf") format("truetype");
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Navigation */
+.navigation h1 {
+  margin: 0;
+  font-family: "Pattaya", sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  color: #fed136;
+  letter-spacing: 1.3px;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+
+.navigation-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

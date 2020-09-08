@@ -1,16 +1,60 @@
 /*Variables */
 
-@font-face: {
-  font-family: 'WisdomScript';
-  src: url("components/wisdom-script.otf") format('opentype');
-}
-
-@font-face: {
-  font-family: 'DroidSerif';
-  src: url("components/DroidSerif-Italic.ttf") format('truetype');
-}
+$color-special: #fed136;
 
 $font-main: 'Montserrat', sans-serif;
 $font-text: 'Roboto Slab', serif;
-$font-title: 'WisdomScript', verdana, helvetica, sans-serif;;
-$font-subtitle: 'DroidSerif';
+$font-title: 'Pattaya', sans-serif;
+$font-subtitle: 'Bree Serif', serif;
+
+/* Global */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Navigation */
+
+.navigation {
+  h1 {
+    margin: 0;
+    font-family: $font-title;
+    font-size: 26px;
+    font-weight: 100;
+    color: $color-special;
+    letter-spacing: 1.3px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 20px;
+  }
+}
+
+.navigation-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
