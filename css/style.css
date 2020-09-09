@@ -54,8 +54,8 @@ a {
   height: 100vh;
   position: relative;
   background-image: url("../images/Background_Image.jpg");
-  background-color: #000000;
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -95,7 +95,56 @@ a {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 25px 51px 26px;
+  padding: 25px 51px;
   margin-top: 26px;
+}
+
+/* Services */
+.services {
+  color: #222222;
+  text-align: center;
+  margin: 120px auto;
+}
+
+.services i {
+  color: #fed136;
+  font-size: 36px;
+  border: solid 3px #fed136;
+  border-radius: 50%;
+  width: 68px;
+  height: 67px;
+  line-height: 60px;
+  background-color: #ffffff;
+}
+
+.services h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.services h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: capitalize;
+  letter-spacing: -0.45px;
+}
+
+.services h2 {
+  font-family: "Bree Serif", serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: italic;
+  color: #777777;
+}
+
+.services p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
 }
 /*# sourceMappingURL=style.css.map */
