@@ -160,3 +160,28 @@ a {
     margin: 25px 17px;
   }
 }
+
+.page-footer {
+  color: $color-header;
+  margin: 40px auto;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    font-size: 0;
+  }
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  i {
+    color: #ffffff;
+    background-color: $color-header;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+}

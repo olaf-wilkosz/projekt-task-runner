@@ -158,4 +158,33 @@ a {
   background-color: #ffffff;
   margin: 25px 17px;
 }
+
+.page-footer {
+  color: #222222;
+  margin: 40px auto;
+}
+
+.page-footer ul {
+  list-style-type: none;
+}
+
+.page-footer li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.page-footer p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.page-footer i {
+  color: #ffffff;
+  background-color: #222222;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
