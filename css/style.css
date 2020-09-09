@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 940px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -39,6 +39,8 @@ a {
 }
 
 .navigation-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: nowrap;
@@ -100,10 +102,41 @@ a {
 }
 
 /* Services */
-.services {
+.container {
   color: #222222;
   text-align: center;
   margin: 120px auto;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.container h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: capitalize;
+  letter-spacing: -0.45px;
+}
+
+.container h2 {
+  font-family: "Bree Serif", serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: italic;
+  color: #777777;
+}
+
+.container p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
 }
 
 .services i {
@@ -117,34 +150,12 @@ a {
   background-color: #ffffff;
 }
 
-.services h1 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 75px;
-  text-transform: uppercase;
-  letter-spacing: -1px;
+.portfolio {
+  background-color: #f7f7f7;
 }
 
-.services h3 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 75px;
-  text-transform: capitalize;
-  letter-spacing: -0.45px;
-}
-
-.services h2 {
-  font-family: "Bree Serif", serif;
-  font-size: 16px;
-  font-weight: 100;
-  font-style: italic;
-  color: #777777;
-}
-
-.services p {
-  color: #777777;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: -0.35px;
+.portfolio .card {
+  background-color: #ffffff;
+  margin: 25px 17px;
 }
 /*# sourceMappingURL=style.css.map */
